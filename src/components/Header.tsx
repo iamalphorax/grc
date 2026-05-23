@@ -62,7 +62,7 @@ export function Header() {
             <img
               src={LOGO_URL}
               alt="Global Remote Cleaning Services"
-              className={`transition-all duration-500 object-contain ${isScrolled ? 'h-20 md:h-20' : 'h-20 md:h-20'} group-hover:scale-105`} />
+              className={`transition-all duration-500 object-contain ${isScrolled ? 'h-20 md:h-16' : 'h-20 md:h-16'} group-hover:scale-105`} />
 
           </Link>
 
