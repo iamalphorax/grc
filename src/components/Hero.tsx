@@ -10,7 +10,7 @@ import {
 } from
   'lucide-react';
 import { Link } from 'react-router-dom';
-import { CLEANING_IMAGES } from '../constants/images';
+import { CLEANING_IMAGES, BAImages, cleaners } from '../constants/images';
 export function Hero() {
   const { scrollY } = useScroll();
   const y = useTransform(scrollY, [0, 600], [0, 150]);

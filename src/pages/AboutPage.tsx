@@ -4,7 +4,7 @@ import { CheckCircle2, MessageCircle, Award, Users, Leaf, Heart } from 'lucide-r
 import { PageBanner } from '../components/PageBanner';
 import { Process } from '../components/Process';
 import { Stats } from '../components/Stats';
-import { CLEANING_IMAGES, SMS_URL } from '../constants/images';
+import { CLEANING_IMAGES, SMS_URL, BAImages, cleaners } from '../constants/images';
 const values = [{
   icon: Heart,
   title: 'Care',
@@ -39,8 +39,8 @@ export function AboutPage() {
         }} viewport={{
           once: true
         }} className="grid grid-cols-2 gap-4">
-          <img src={CLEANING_IMAGES[2]} alt="Clean space" className="rounded-3xl aspect-[3/4] object-cover shadow-xl" />
-          <img src={CLEANING_IMAGES[5]} alt="Clean space" className="rounded-3xl aspect-[3/4] object-cover shadow-xl mt-12" />
+          <img src={BAImages[2]} alt="Clean space" className="rounded-3xl aspect-[3/4] object-cover shadow-xl" />
+          <img src={BAImages[5]} alt="Clean space" className="rounded-3xl aspect-[3/4] object-cover shadow-xl mt-12" />
         </motion.div>
 
         <motion.div initial={{

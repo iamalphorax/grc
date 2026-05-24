@@ -13,7 +13,7 @@ import {
 import { Link } from 'react-router-dom';
 import { PageBanner } from '../components/PageBanner';
 import { CtaBanner } from '../components/CtaBanner';
-import { CLEANING_IMAGES } from '../constants/images';
+import { CLEANING_IMAGES, BAImages, cleaners } from '../constants/images';
 const services = [
   {
     icon: Home,
@@ -65,7 +65,7 @@ const services = [
       'Appliance interiors',
       'Walls & floors'],
 
-    image: CLEANING_IMAGES[9]
+    image: cleaners[1]
   },
   // {
   //   icon: Sofa,

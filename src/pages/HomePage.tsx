@@ -5,7 +5,7 @@ import { ArrowRight, Home, Building2, Sparkles, Key, Sofa, Droplets, Star, Quote
 import { Hero } from '../components/Hero';
 import { Stats } from '../components/Stats';
 import { CtaBanner } from '../components/CtaBanner';
-import { CLEANING_IMAGES } from '../constants/images';
+import { CLEANING_IMAGES, cleaners, BAImages } from '../constants/images';
 const previewServices = [{
   icon: Home,
   title: 'House Cleaning',
@@ -61,8 +61,8 @@ export function HomePage() {
         }} viewport={{
           once: true
         }} className="grid grid-cols-2 gap-4">
-          <img src={CLEANING_IMAGES[15]} alt="Clean space" className="rounded-3xl aspect-[3/4] object-cover shadow-xl" />
-          <img src={CLEANING_IMAGES[6]} alt="Clean space" className="rounded-3xl aspect-[3/4] object-cover shadow-xl mt-8" />
+          <img src={BAImages[4]} alt="Clean space" className="rounded-3xl aspect-[3/4] object-cover shadow-xl" />
+          <img src={cleaners[1]} alt="Clean space" className="rounded-3xl aspect-[3/4] object-cover shadow-xl mt-8" />
         </motion.div>
         <motion.div initial={{
           opacity: 0,
@@ -158,7 +158,7 @@ export function HomePage() {
           </Link>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {CLEANING_IMAGES.slice(0, 4).map((img, i) => <motion.div key={i} initial={{
+          {BAImages.slice(0, 4).map((img, i) => <motion.div key={i} initial={{
             opacity: 0,
             y: 20
           }} whileInView={{

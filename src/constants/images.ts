@@ -25,6 +25,28 @@ export const CLEANING_IMAGES = [
 
 
 export const HERO_IMAGE = CLEANING_IMAGES[0];
+
+export const BAImages = [
+    '/ba/WhatsApp Image 2026-05-24 at 17.22.33.jpeg',
+    '/ba/WhatsApp Image 2026-05-24 at 17.22.39.jpeg',
+    '/ba/WhatsApp Image 2026-05-24 at 17.22.40 (1).jpeg',
+    '/ba/WhatsApp Image 2026-05-24 at 17.22.40.jpeg',
+    '/ba/WhatsApp Image 2026-05-24 at 17.22.41 (1).jpeg',
+    '/ba/WhatsApp Image 2026-05-24 at 17.22.41 (2).jpeg',
+    '/ba/WhatsApp Image 2026-05-24 at 17.22.41 (3).jpeg',
+    '/ba/WhatsApp Image 2026-05-24 at 17.22.41 (4).jpeg',
+    '/ba/WhatsApp Image 2026-05-24 at 17.22.41 (5).jpeg',
+    '/ba/WhatsApp Image 2026-05-24 at 17.22.41 (6).jpeg',
+    '/ba/WhatsApp Image 2026-05-24 at 17.22.41 (7).jpeg',
+    '/ba/WhatsApp Image 2026-05-24 at 17.22.41.jpeg'
+];
+
+export const cleaners = [
+    '/cl/WhatsApp Image 2026-05-24 at 17.14.59 (1).jpeg',
+    '/cl/WhatsApp Image 2026-05-24 at 17.14.59.jpeg',
+    '/cl/WhatsApp Image 2026-05-24 at 17.15.04.jpeg'
+];
+
 export const LOGO_URL = "/WhatsApp_Image_2026-05-20_at_12.44.23.jpg";
 
 export const WHATSAPP_URL = 'sms:+19089759421';
