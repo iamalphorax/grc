@@ -1,0 +1,7 @@
+{
+  "edgeFunctions": {
+    "api/auth": {
+      "include": ["/(.*)"]
+    }
+  }
+}
