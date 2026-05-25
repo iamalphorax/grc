@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "npx vite",
-    "build": "vite build && npx staticrypt dist/index.html $SITE_PASSWORD -o dist/index.html --title 'Protected Site'",
+    "build": "npx vite build",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "preview": "npx vite preview"
   },
